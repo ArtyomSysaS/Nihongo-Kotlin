@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    android:id="@+id/testSettingScrolView"
+    tools:context="org.artym_sysa.nihongo.TestSettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:divider="@drawable/separator"
+        android:orientation="vertical"
+        android:showDividers="middle"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/startTestBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorAccent"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:focusable="true"
+            android:text="Начать тест"
+            android:layout_marginBottom="16dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <include layout="@layout/test_setting_words_quantity_filter_dialog_layout" />
+
+        <include layout="@layout/test_setting_type_dialog_layout" />
+
+    </LinearLayout>
+</ScrollView>

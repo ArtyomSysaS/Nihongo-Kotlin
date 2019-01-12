@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:background="@color/white">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow tools:ignore="ExtraText">
+
+            <FrameLayout android:layout_weight="1">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Фильтр"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+                <Button
+                    android:id="@+id/clearButton"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginBottom="14dp"
+                    android:background="@drawable/ic_close_black_24px" />
+            </FrameLayout>
+
+            <Spinner
+                android:id="@+id/sortSpinner"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_margin="8dp"
+                android:spinnerMode="dropdown"
+                android:entries="@array/sort_values"
+                android:background="@drawable/ic_sort_by_alpha_black_24px" />
+            / >
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

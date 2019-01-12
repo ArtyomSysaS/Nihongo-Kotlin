@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sort_values">
+        <item>По умолчанию</item>
+        <item>▼ По алфавиту</item>
+        <item>▲ По алфавиту</item>
+        <item>▼ По дате создания</item>
+        <item>▲ По дате создания</item>
+        <item>▼ По кол-ву слов</item>
+        <item>▲ По кол-ву слов</item>
+    </array>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="extra_fields">
+        <item>Значение</item>
+        <item>Чтение</item>
+        <item>Написание</item>
+        <item>Заметка</item>
+        <item>Другое</item>
+    </array>
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Тип тестирования"
+        android:layout_margin="16dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/WordMeaningSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="8dp"
+            android:switchPadding="16dp"
+            android:text="Слово > Значение"
+            android:checked="true"
+            />
+
+        <Switch
+            android:id="@+id/MeaningWordSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+
+            android:layout_marginTop="4dp"
+            android:switchPadding="16dp"
+            android:text="Значение > Слово" />
+
+        <Switch
+            android:id="@+id/WordReadingSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:switchPadding="16dp"
+            android:text="Слово > Чтение" />
+
+        <Switch
+            android:id="@+id/ReadingWordSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:switchPadding="16dp"
+            android:text="Чтение > Слово" />
+
+        <Switch
+            android:id="@+id/ReadingMeaningSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:switchPadding="16dp"
+            android:text="Чтение > Значение" />
+
+        <Switch
+            android:id="@+id/MeaningRadingSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:switchPadding="16dp"
+            android:text="Значение > Чтение" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="Режим"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Switch
+            android:id="@+id/CorrectSelectionSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:switchPadding="16dp"
+            android:text="С выбором ответа"
+            android:checked="true"
+            />
+
+
+        <Switch
+            android:id="@+id/CorrectIncorrectSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+
+            android:layout_marginTop="8dp"
+            android:switchPadding="16dp"
+            android:text="Верно-неверно" />
+
+        <Switch
+            android:id="@+id/WriteCorrectSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:switchPadding="16dp"
+            android:text="Письменные" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="Дополнительно"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Switch
+            android:id="@+id/RepeatIncorrectExercisesSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:switchPadding="16dp"
+            android:text="Повторять задание при неправильных ответах"
+            android:checked="true"
+            />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardInfo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="6dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="6dp">
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="1">
+
+        <TextView
+            android:id="@+id/wKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="2dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            android:text="Текст"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:id="@+id/wValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="2dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            android:text="Текст"
+            android:textSize="16dp"/>
+
+    </GridLayout>
+
+</LinearLayout>

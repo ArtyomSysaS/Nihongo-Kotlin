@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/selectionMode1stVariant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/bordered_btn_colorprimary"
+        android:text="Ответ 1"/>
+
+    <Button
+        android:id="@+id/selectionMode2ndVariant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bordered_btn_colorprimary"
+        android:text="Ответ 2" />
+
+    <Button
+        android:id="@+id/selectionMode3rdVariant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bordered_btn_colorprimary"
+        android:text="Ответ 3"/>
+
+    <Button
+        android:id="@+id/selectionMode4thVariant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bordered_btn_colorprimary"
+        android:text="Ответ 4" />
+
+</LinearLayout>

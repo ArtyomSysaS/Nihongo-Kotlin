@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityGroup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context="org.artym_sysa.nihongo.GroupActivity">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <android.support.design.widget.CoordinatorLayout
+
+        android:background="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/wordsListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:dividerHeight="0dp"
+            android:divider="@color/white"/>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/wFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|bottom|end"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_add_white_24px" />
+    </android.support.design.widget.CoordinatorLayout>
+</TableLayout>

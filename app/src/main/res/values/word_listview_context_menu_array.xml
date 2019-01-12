@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="word_context_menu">
+        <item>Перейти</item>
+        <item>Редактировать</item>
+        <item>Перенести в другую группу</item>
+        <item>Удалить</item>
+    </array>
+</resources>

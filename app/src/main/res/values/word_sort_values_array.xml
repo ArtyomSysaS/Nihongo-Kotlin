@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="word_sort_values">
+        <item>По умолчанию</item>
+        <item>▼ По алфавиту</item>
+        <item>▲ По алфавиту</item>
+        <item>Изученые</item>
+        <item>Неизученные</item>
+    </array>
+</resources>

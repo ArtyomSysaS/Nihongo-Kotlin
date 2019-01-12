@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TableRow android:weightSum="10">
+
+        <LinearLayout android:layout_weight="9">
+
+            <TextView
+                android:id="@+id/answetLeftCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100" />
+
+            <ProgressBar
+                android:id="@+id/testProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="30" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="right">
+
+            <Button
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_checked"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/correctAnswerCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="1" />
+
+            <Button
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ic_cancel"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <TextView
+                android:id="@+id/incorrectAnswerCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="1" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>

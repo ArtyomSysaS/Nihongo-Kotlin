@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:id="@+id/testRecordLayout"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/answerStatus"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/ic_checked" />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="2dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            android:text="Слово:"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/textTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="2dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            android:text="СЛОВО"
+            android:textSize="16dp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="2dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            android:text="Тип:"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="2dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            android:text="ТИП"
+            android:textSize="16dp" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="2dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            android:text="Режим:"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/modeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginTop="2dp"
+            android:layout_rowWeight="1"
+            android:layout_weight="1"
+            android:text="РЕЖИМ"
+            android:textSize="16dp" />
+    </GridLayout>
+
+
+</LinearLayout>
