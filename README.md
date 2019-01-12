@@ -1,1 +1,1 @@
-Nihongo-Kotlin
+Nihongo project in Kotlin
